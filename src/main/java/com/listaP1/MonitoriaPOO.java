@@ -96,12 +96,34 @@ public class MonitoriaPOO {
         j.sortear();
         System.out.println("Sorteado = " + j.getNumeroSorteado()); //método extra auxiliar só pra confirmar
 
-         if (j.advinhar(1)) 
+         if (j.adivinhar(1)) 
             System.out.println("Acertou! ^_^");
          else
             System.out.println("Errou! :C");
         */
 
        //=================== Exercício 7
+        /*
+
+        Eq2Grau eq = new Eq2Grau(1,-4,4); //Teste 1 = 1,2,-15 | Teste 2 = 1,2,5 | Teste 3 = 1,-4,4
+
+        System.out.println("Delta = " + eq.delta()); // 64 | -16  | 0
+        System.out.println("Raiz 1 = " + eq.raiz1()); // 3 | NaN  | 2
+        System.out.println("Raiz 2 = " + eq.raiz2()); //-5 | NaN  | 2
+
+        //O Java converte o Double.NaN para a string "NaN" automaticamente na concatenação.
+        //Se o retorno for NaN, não dá erro, não lança exceção: É impresso literalmente a string -> "Raiz 1 = NaN"
+
+        System.out.println("ou"); //Ou armazena numa variável pra imprimir bonitinho, como abaixo:
+
+        double r = eq.raiz1();
+        if (Double.isNaN(r)) 
+            System.out.println("Não há raízes reais.");
+        else
+            System.out.println("Raiz 1: " + r);
+        
+        */
+
+        //=================== Exercício 8
     }
 }

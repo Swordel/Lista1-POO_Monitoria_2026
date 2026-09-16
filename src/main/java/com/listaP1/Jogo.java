@@ -11,7 +11,7 @@ public class Jogo {
     }
     //O nextInt(100) gera um número de 0 a 99: o argumento é o limite exclusivo, então 100 nunca é gerado.
 
-  public boolean advinhar(int chute){
+  public boolean adivinhar(int chute){
         return chute == numeroSorteado;
     }
 
