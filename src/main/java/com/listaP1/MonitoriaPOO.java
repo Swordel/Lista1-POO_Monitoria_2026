@@ -125,5 +125,53 @@ public class MonitoriaPOO {
         */
 
         //=================== Exercício 8
+        /*
+        Porta p1 = new Porta(false);
+        Porta p2 = new Porta(false);
+        Porta p3 = new Porta(false);
+
+        System.out.println("P1 = " + p1.isOpen()); //fechada
+
+        p1.abrir();                                 //1x
+        System.out.println("P1 = " + p1.isOpen()); //aberta
+
+        p1.abrir();                                 //não contabiliza, já está aberto
+        p1.fechar();
+        System.out.println("P1 = " + p1.isOpen());  //fechada
+
+        System.out.println("P2 = " + p2.isOpen());  //fechada
+        p2.abrir();                                 //2x
+        p2.fechar();
+        System.out.println("P2 = " + p2.isOpen());  //fechada
+
+        System.out.println("P3 = " + p3.isOpen());  //fechada
+        p3.abrir();                                 //3x
+        System.out.println("P3 = " + p3.isOpen());  //aberta
+        
+        System.out.println(Porta.getNumAberturas()); //3
+        */
+
+        //**************** Outro exemplo abaixo, rode separadamente:
+        /*
+        Porta porta1 = new Porta(false);
+        Porta porta2 = new Porta(false);
+
+        porta1.abrir();
+        porta1.fechar(); //Se tirar essa linha, o total de aberturas = 2
+
+        porta2.abrir();
+        porta2.fechar();
+
+        porta1.abrir();
+
+        System.out.println("Porta 1 esta aberta? " + porta1.isOpen()); //true
+        System.out.println("Porta 2 esta aberta? " + porta2.isOpen()); //false
+
+        System.out.println("Total de aberturas: " + Porta.getNumAberturas()); //3
+        */
+
+       //=================== Exercício 9
+
+       
     }
 }
