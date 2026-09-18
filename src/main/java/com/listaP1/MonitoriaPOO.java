@@ -172,6 +172,63 @@ public class MonitoriaPOO {
 
        //=================== Exercício 9
 
-       
+        /*
+
+        Cliente c1 = new Cliente("Gaby", 300, 200);
+        Cliente c2 = new Cliente("Bela", 800, 100);
+
+        System.out.println(c1.obterNome() + ": " + c1.checarSaldo()); // 500
+        System.out.println(c2.obterNome() + ": " + c2.checarSaldo()); // 900
+
+        Transferencia.transferir(c1, c2, 500); // Bela -> Gaby, deve funcionar
+        System.out.println(c1.obterNome() + ": " + c1.checarSaldo()); // 1000
+        System.out.println(c2.obterNome() + ": " + c2.checarSaldo()); // 400
+
+        Transferencia.transferir(c1, c2, 600); // Bela não tem saldo suficiente 
+
+        */
+
+       //=================== Exercício 10
+       //a definir
+
+       //=================== Exercício 11
+        /*
+        
+        Apartamento a1 = new Apartamento(101);
+        Apartamento a2 = new Apartamento(202);
+        Apartamento a3 = new Apartamento(303);
+        Apartamento a4 = new Apartamento(404); // não vai caber
+
+        Edificio ed = new Edificio();
+        ed.adicionar(a1);
+        ed.adicionar(a2);
+        ed.adicionar(a3);
+        ed.adicionar(a4); // "Edifício cheio."
+
+        System.out.println("--- Todos os apartamentos ---");
+        ed.listarTodos();
+
+        System.out.println("--- Buscando ap 202 ---");
+        System.out.println(ed.buscar(202)); //buscar retorna um objeto Apartamento, e sem um toString() o Java imprime o endereço de memória.
+        
+        //Caso você opte por usar .mostrar() no lugar do toString() -> se o apartamento não for encontrado, buscar retorna null e chamar .mostrar() em null lança NullPointerException
+        //ed.buscar(202).mostrar();
+        //Então, faça assim:
+        //Apartamento encontrado = ed.buscar(202);
+        // if(encontrado != null)
+        //      encontrado.mostrar();
+
+        System.out.println("--- Buscando ap 999 ---");
+        Apartamento encontrado = ed.buscar(999);
+        if(encontrado != null)
+            encontrado.mostrar();
+
+        //System.out.println(ed.buscar(999));  ---> ok, retorna null normal
+        //ed.buscar(999).mostrar(); ----> Isso não pode! Lança exception  
+
+        */
+
+        //=================== Exercício 12
+      
     }
 }
